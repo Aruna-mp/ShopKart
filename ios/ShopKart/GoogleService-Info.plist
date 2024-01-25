@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>CLIENT_ID</key>
+	<string>189359351234-f1am23c7037dgj1p8imrih0ehqk7g106.apps.googleusercontent.com</string>
+	<key>REVERSED_CLIENT_ID</key>
+	<string>com.googleusercontent.apps.189359351234-f1am23c7037dgj1p8imrih0ehqk7g106</string>
+	<key>ANDROID_CLIENT_ID</key>
+	<string>189359351234-6tck99jdf5elfph65vph0ar0j3v53lq3.apps.googleusercontent.com</string>
+	<key>API_KEY</key>
+	<string>AIzaSyCQD-tWYtU_gPuYwC35tfBGEJ2rs-_E6rg</string>
+	<key>GCM_SENDER_ID</key>
+	<string>189359351234</string>
+	<key>PLIST_VERSION</key>
+	<string>1</string>
+	<key>BUNDLE_ID</key>
+	<string>org.reactjs.native.example.ShopKart</string>
+	<key>PROJECT_ID</key>
+	<string>shopkart-b4442</string>
+	<key>STORAGE_BUCKET</key>
+	<string>shopkart-b4442.appspot.com</string>
+	<key>IS_ADS_ENABLED</key>
+	<false></false>
+	<key>IS_ANALYTICS_ENABLED</key>
+	<false></false>
+	<key>IS_APPINVITE_ENABLED</key>
+	<true></true>
+	<key>IS_GCM_ENABLED</key>
+	<true></true>
+	<key>IS_SIGNIN_ENABLED</key>
+	<true></true>
+	<key>GOOGLE_APP_ID</key>
+	<string>1:189359351234:ios:bc7fb1fb95101ea00da25b</string>
+	<key>DATABASE_URL</key>
+	<string>https://shopkart-b4442-default-rtdb.firebaseio.com</string>
+</dict>
+</plist>

@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="default_web_client_id" translatable="false">189359351234-0gthf1id939rpq9ge6sejas01i5sc5su.apps.googleusercontent.com</string>
+    <string name="firebase_database_url" translatable="false">https://shopkart-b4442-default-rtdb.firebaseio.com</string>
+    <string name="gcm_defaultSenderId" translatable="false">189359351234</string>
+    <string name="google_api_key" translatable="false">AIzaSyAxJCCKa3vgDJhG9cBS_ASq5JTekb_gohg</string>
+    <string name="google_app_id" translatable="false">1:189359351234:android:d1c67d7665c91a270da25b</string>
+    <string name="google_crash_reporting_api_key" translatable="false">AIzaSyAxJCCKa3vgDJhG9cBS_ASq5JTekb_gohg</string>
+    <string name="google_storage_bucket" translatable="false">shopkart-b4442.appspot.com</string>
+    <string name="project_id" translatable="false">shopkart-b4442</string>
+</resources>

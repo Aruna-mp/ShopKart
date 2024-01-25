@@ -1,0 +1,144 @@
+
+import React from 'react';
+import {StyleSheet } from 'react-native';
+import Colors from '../../components/common/Colors';
+
+const style=(height,width)=>StyleSheet.create({
+    container:{
+        marginVertical:10,
+        padding:15,
+        overflow:'hidden',
+        flex:1,
+},
+    viewstyle:{
+        flexDirection:'row',
+        alignItems:'center',
+        borderBottomWidth:1,
+        borderBottomColor:Colors.black,
+        paddingVertical:10
+    },
+     profile:{
+        borderRadius:50/2,
+        height:50,
+        width:50,
+        justifyContent:'center',
+        backgroundColor:Colors.Silver,
+        alignItems:'center',
+        marginLeft:5,
+        marginBottom:5
+    },
+     profilenameview:{
+        marginLeft:16,
+        width:'60%' 
+    },
+    profilename:{
+        fontFamily:'Poppins-Bold',
+        fontSize:20,
+        color:Colors.black
+    },
+    profileemail:{
+        fontFamily:'Poppins-Regular',
+        fontSize:12,
+        color:Colors.black
+    },
+    iconview:{
+        marginVertical:10
+    },
+    texticon:{
+        fontFamily:'Poppins-Regular',
+        fontSize:18,
+        color:Colors.black
+     
+    },
+    iconstyle:{
+        height:23,
+        width:23,
+        resizeMode:'center',
+        marginRight:20
+    },
+    iconalign:{
+        flexDirection:'row',
+        alignItems:'center',
+        paddingVertical:5,
+        justifyContent:'space-between'},
+    imageview:{
+        flexDirection:'row',
+        alignItems:'center',
+        marginVertical:15
+    },
+    arrow:{
+        height:20,
+        width:20,
+        resizeMode:'center',
+        backgroundColor:Colors.LightGreen,
+        borderRadius:20
+    },
+    logoutview:
+    {
+        borderColor:Colors.black,
+        borderWidth:1,
+        paddingHorizontal:10,
+        paddingVertical:5,
+        backgroundColor:Colors.WhiteSmoke,
+        justifyContent:'center',
+        alignItems:'center',
+        width:'50%',
+        borderRadius:30,
+        flexDirection:'row',
+        alignItems:'center',
+        backgroundColor:Colors.LightGreen
+       
+    },
+    textlogout:{
+        fontFamily:'Poppins-Regular',
+        fontSize:16,
+        marginLeft:10,
+        color:Colors.black
+    },
+    contactview:
+    {
+        borderColor:Colors.black,
+        padding:3,
+        backgroundColor:Colors.WhiteSmoke,
+        justifyContent:'center',
+        alignItems:'center',
+        width:'50%',
+        borderRadius:30,
+        flexDirection:'row',
+        alignItems:'center',
+        backgroundColor:Colors.green
+       
+    },
+    supportview:{
+        backgroundColor:Colors.LightGreen,
+        borderRadius:20,
+        padding:10,
+        marginVertical:15
+    },
+    supporthead:{
+        fontFamily:'Poppins-Bold',
+        fontSize:20,  
+        lineHeight:25,
+        color:Colors.black,   
+    },
+    supporttext:{
+        fontFamily:'Poppins-Regular',
+        fontSize:14,
+        lineHeight:19,
+        color:Colors.black, 
+    },
+    contacttext:{
+        fontFamily:'Poppins-Regular',
+        fontSize:18,
+        color:Colors.WhiteSmoke,
+       
+    },
+    image:{
+        height:width*.1,
+        width:width*.1,
+        resizeMode:'contain',
+        borderRadius:width*.05
+    },
+});
+
+export default style;
